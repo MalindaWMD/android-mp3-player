@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#303F9F</color>
-    <color name="colorAccent">#FF4081</color>
-    <color name="list_item_normal">#93a6b0</color>
-    <color name="list_item_pressed">#93a6b0</color>
-    <color name="list_item_pressed_dark">#8f8089</color>
-</resources>
