@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.malinda.newplayer.PlayList"
+    tools:showIn="@layout/activity_play_list"
+    android:background="@drawable/dark_bg"
+    android:weightSum="1">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:src="@drawable/dark_logo_plalist"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp" />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="408dp"
+        android:id="@+id/listView"
+        android:background="@color/list_item_normal"
+        android:layout_margin="10dp" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButton"
+        android:src="@drawable/back_selector"
+        android:background="@null"
+        android:layout_gravity="center_horizontal" />
+
+</LinearLayout>
